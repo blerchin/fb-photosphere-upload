@@ -1,0 +1,16 @@
+{
+  "name": "fb-upload-photosphere",
+  "version": "1.0.0",
+  "description": "try to upload a photospehre to fb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ben Lerchin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fb": "^1.1.1"
+  }
+}
