@@ -7,6 +7,9 @@ const CLIENT_ID = null;
 const CLIENT_SECRET = null;
 app.listen(3000);
 
+//copy this from https://developers.facebook.com/tools/explorer/
+//(or you can wait for facebook to approve your app and use oauth 😣 )
+//make sure to request `publish_actions` permission
 var accessToken = 'EAACEdEose0cBALujVpSwtdhWh9QO1PdlidtCYt6kMhp9KQCzWqXOHGfk91zuqfMm2vcNjahMOqrqZA8eA4rWkEwafXgSi8ziNHWzDtGmGXKVZC4ZC4TCqnLVb9L56RcyKJ3Q0YDy94bG49P4viZAaAePAZAIjd1dJrgZA6zc5L3QZDZD';
 if(accessToken){
   return upload(accessToken)
